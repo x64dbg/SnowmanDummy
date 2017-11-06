@@ -9,6 +9,10 @@ extern "C" __declspec(dllexport) void DecompileAt(void* snowman, void* start, vo
 {
 }
 
+extern "C" __declspec(dllexport) void DecompileRanges(void* snowman, void* ranges, void* count)
+{
+}
+
 extern "C" __declspec(dllexport) void CloseSnowman(void* snowman)
 {
 }
